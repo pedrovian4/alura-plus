@@ -1,0 +1,17 @@
+:root{
+    --main-white:#ffff;
+    --sec-grey:#c0c0c0;
+    --main-blue:#167bf7;
+    --backgorund-main: #00030c;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+
+body{
+    background-color: var(--backgorund-main);
+    color: var(--main-white);
+}
