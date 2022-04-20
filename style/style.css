@@ -3,6 +3,9 @@
     --sec-grey:#c0c0c0;
     --main-blue:#167bf7;
     --backgorund-main: #00030c;
+    --font-main: 'Inter';
+    --blue-button-effect:#3c92fa;
+    --blue-button:#167bf7;
 }
 
 *{
@@ -14,4 +17,46 @@
 body{
     background-color: var(--backgorund-main);
     color: var(--main-white);
+    font-family: var(--font-main);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.main{
+    background-image: url("/img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container_button{
+    background-color: var(--blue-button);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--main-white);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.container_buttonn_sec{
+    background-color: transparent;
+    border:  2px solid var(--main-white);
+}
+
+.container_warnning{
+    background-color: transparent;
+    border: 2px solid var(--main-white);
+}
+
+.container_header{
+    font-size: 12px;
+    font-weight: 700;
 }
